@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breanna Rivera | Personal Brand</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #ffe6f0; }
+    header, nav, section, footer { padding: 20px; max-width: 1000px; margin: auto; }
+    nav ul { list-style-type: none; padding: 0; display: flex; gap: 20px; justify-content: center; }
+    nav ul li { display: inline; }
+    nav a { text-decoration: none; font-weight: bold; color: #d63384; }
+    nav a:hover { color: #ff66a5; }
+    .hero { background-color: #ffcce0; padding: 40px 20px; text-align: center; }
+    .resume-button, .linkedin-button { display: inline-block; margin: 10px; padding: 10px 20px; background-color: #d63384; color: white; text-decoration: none; border-radius: 5px; transition: background-color 0.3s ease; }
+    .resume-button:hover, .linkedin-button:hover, button:hover { background-color: #ff66a5; }
+    form { display: flex; flex-direction: column; gap: 10px; align-items: center; }
+    input, textarea { padding: 10px; width: 100%; max-width: 500px; border: 1px solid #d63384; border-radius: 4px; }
+    button { background-color: #d63384; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease; }
+    footer { text-align: center; font-size: 0.9em; color: #555; background-color: #ffe6f0; }
+    .headshot { max-width: 150px; border-radius: 50%; display: block; margin: 20px auto; border: 3px solid #d63384; }
+    h2 { color: #d63384; }
+    ul li { margin-bottom: 8px; }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>Breanna Rivera</h1>
+    <p>Innovative Thinker | Strategic Communicator | Lifelong Learner</p>
+    <a class="linkedin-button" href="https://www.linkedin.com/in/breanna-rivera-" target="_blank">LinkedIn Profile</a>
+    <a class="resume-button" href="https://texastechuniversity-my.sharepoint.com/my?id=%2Fpersonal%2Fbrearive%5Fttu%5Fedu%2FDocuments%2Fwebsite%2FBreannaRivera%20%282%29%2Epdf&parent=%2Fpersonal%2Fbrearive%5Fttu%5Fedu%2FDocuments%2Fwebsite" target="_blank" download>Download Resume</a>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#experiences">Experiences</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="https://i.imgur.com/9Yw77u7.jpg" alt="Professional headshot of Breanna Rivera" class="headshot">
+    <p>I’m a driven and adaptable professional passionate about creative problem-solving, innovation, and growth. With experience in Banking, I excel in collaborative environments and always seek new ways to challenge myself. I am the youngest of five siblings and was raised in a small rural town that taught me the value of hard work and humility. I graduated high school with my associate degree, which reflects my commitment to education and determination to get ahead. Outside of work, I enjoy traveling, exploring new cultures, and sharing my learnings through writing and conversation. I believe in purposeful living and bringing value to every opportunity.</p>
+  </section>
+
+  <section id="blog">
+    <h2>My Blog</h2>
+    <article>
+      <h3>Why Innovation Should Start with Empathy</h3>
+      <p>Too often, we leap into solutions without understanding the real problems. Innovation that begins with empathy allows us to create meaningful impact. I have learned that it is important to see problems through the lens of different people's eyes. When we take time to actively listen and understand others' experiences, we uncover deeper insights and avoid one-size-fits-all thinking.</p>
+      <p>Beyond empathy, innovation flourishes in environments where open collaboration is encouraged. Some of the most impactful ideas I've seen emerge were the result of people from different backgrounds building on each other’s thoughts. Supporting each other's ideas, even in early or rough stages, helps nurture creativity and fuels the confidence needed to take bold steps. True innovation isn’t a solo effort—it’s a collective journey driven by shared goals, diverse perspectives, and mutual encouragement.</p>
+      <a href="#" target="_blank">Read more</a>
+    </article>
+    <article>
+      <h3>3 Lessons from My Leadership Role in ALPFA</h3>
+      <p>Leading a team while balancing academics taught me how to manage time, communicate effectively, and inspire people with a shared mission. One of the most rewarding aspects of my role in ALPFA was helping fellow Latino students build confidence in themselves and their potential. I organized workshops and one-on-one sessions focused on preparing for interviews, building professional resumes, and developing strong networking skills. My goal was to make sure our members felt empowered and ready to step into the professional world with pride and preparation.</p>
+      <a href="#" target="_blank">Read more</a>
+    </article>
+  </section>
+
+  <section id="experiences">
+    <h2>Experiences</h2>
+    <ul>
+      <li><strong>Texas Tech Visitor Center – Undergraduate Admissions</strong>: Student Assistant</li>
+      <li><strong>Interbank –</strong>: Teller</li>
+      <li><strong>City Bank</strong>: Teller</li>
+      <li><strong>Bailey County District Attorney's Office</strong>: Intern</li>
+      <li><strong>Association of Latino Professionals for America (ALPFA)</strong>: Secretary</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="mailto:Breannarivera55@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Breanna Rivera. All rights reserved.</p>
+  </footer>
+</body>
+</html>
